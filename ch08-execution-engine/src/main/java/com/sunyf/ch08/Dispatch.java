@@ -9,32 +9,34 @@ package com.sunyf.ch08;
 public class Dispatch {
 
     // QQ静态类
-    static class QQ {}
+    static class QQ {
+    }
 
     // 360静态类
-    static class _360 {}
+    static class _360 {
+    }
 
     // 父亲艰难抉择，静态类
     public static class Father {
 
-      public void hardChoice(QQ arg){
-          System.out.println("father choose qq");
-      }
+        public void hardChoice(QQ arg) {
+            System.out.println("father choose qq");
+        }
 
-      public void hardChoice (_360 arg) {
-          System.out.println("father choose 360");
-      }
+        public void hardChoice(_360 arg) {
+            System.out.println("father choose 360");
+        }
 
     }
 
     // 儿子艰难抉择，继承父亲，静态类
-    public static class Son  extends Father{
+    public static class Son extends Father {
 
         public void hardChoice(QQ arg) {
             System.out.println("son choose qq");
         }
 
-        public void hardCoice(_360 arg) {
+        public void hardChoice(_360 arg) {
             System.out.println("son choose 360");
         }
 
@@ -51,5 +53,4 @@ public class Dispatch {
     }
 
 
-
-    }
+}
