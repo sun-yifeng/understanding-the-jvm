@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch08-execution-engine" />
+        <module name="ch09-class-loadand-sub-execution" />
       </profile>
     </annotationProcessing>
   </component>
