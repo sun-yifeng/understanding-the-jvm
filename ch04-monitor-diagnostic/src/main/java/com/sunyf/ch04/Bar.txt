@@ -1,0 +1,8 @@
+参考CSDN
+https://blog.csdn.net/mrsyf/article/details/83590981
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home
+
+cd /Users/sunyifeng/IdeaProjects/understanding-the-jvm/ch04-monitor-diagnostic/target/classes/com/sunyf/ch04
+
+java -XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -Xcomp -XX:CompileCommand=dontinline,*Bar.sum -XX:CompileCommand=compileonly, *Bar.sum com.sunyf.ch04.Bar

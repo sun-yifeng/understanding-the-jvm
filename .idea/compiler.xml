@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ch04-monitor-diagnostic" />
         <module name="ch08-execution-engine" />
         <module name="ch09-class-loadand-sub-execution" />
         <module name="ch12-memory-thread" />

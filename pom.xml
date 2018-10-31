@@ -13,6 +13,7 @@
     <module>ch08-execution-engine</module>
       <module>ch09-class-loadand-sub-execution</module>
       <module>ch12-memory-thread</module>
+      <module>ch04-monitor-diagnostic</module>
   </modules>
 
 
