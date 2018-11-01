@@ -6,7 +6,8 @@ import java.util.Vector;
  * @program: understanding-the-jvm
  * @description: 代码清单 13-2 Vector线程安全测试
  *
- * 打印的中间会出现异常，但是程序继续运行
+ * 1、java语言中，大部分线程安全类都是相当安全，如Vector、HashTable等
+ * 2、java语言中，不可变类型有，String、Enum、Long、Double、BigInteger、BigDecimal等包装类型
  *
  * @author: Mr.Sun
  * @create: 2018-11-01 14:29
