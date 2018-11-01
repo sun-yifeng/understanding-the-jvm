@@ -14,6 +14,7 @@
       <module>ch09-class-loadand-sub-execution</module>
       <module>ch12-memory-thread</module>
       <module>ch04-monitor-diagnostic</module>
+      <module>ch03-thread-safety-lock</module>
   </modules>
 
 

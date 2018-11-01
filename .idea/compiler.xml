@@ -10,6 +10,7 @@
         <module name="ch08-execution-engine" />
         <module name="ch09-class-loadand-sub-execution" />
         <module name="ch12-memory-thread" />
+        <module name="ch13-thread-safety-lock" />
       </profile>
     </annotationProcessing>
   </component>

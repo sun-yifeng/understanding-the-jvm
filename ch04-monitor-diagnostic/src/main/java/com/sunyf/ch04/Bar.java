@@ -2,7 +2,7 @@ package com.sunyf.ch04;
 
 /**
  * @program: understanding-the-jvm
- * @description: JIT生成代码反汇编
+ * @description: JIT生成代码反汇编，以下代码主要是为了反汇编使用。
  *
  * @author: Mr.Sun
  * @create: 2018-10-31 19:26
