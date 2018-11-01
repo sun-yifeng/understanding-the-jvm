@@ -16,10 +16,11 @@ import java.util.concurrent.atomic.AtomicInteger;
  **/
 public class AtomicTest {
 
-    public static AtomicInteger reace = new AtomicInteger(0);
+    public static AtomicInteger race = new AtomicInteger(0);
 
     public static void increase() {
-        reace.incrementAndGet(); // ?
+        race.incrementAndGet(); // ? 将当前值加1，返回加1之后的值
+        //race.getAndIncrement(); // 返回当前值，再加1
     }
 
     private static final int THREADS_COUNT = 20;
@@ -41,7 +42,7 @@ public class AtomicTest {
         while (Thread.activeCount() > 1)
             Thread.yield();
 
-        System.out.println(reace);
+        System.out.println(race);
     }
 
 }
