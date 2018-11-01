@@ -7,6 +7,8 @@ package com.sunyf.ch12;
  * 1、分析字节码的工具
  * javap -verbose VolatileTest
  *
+ * 2、volatile在此处不能保证线程安全
+ *
  * @author: Mr.Sun
  * @create: 2018-10-31 15:31
  **/
@@ -36,7 +38,7 @@ public class VolatileTest {
             threads[i].start();
         }
 
-        // 等待所有累加线程都结束
+        // 等待所有累加线程都结束,守护线程（main）再执行
         while (Thread.activeCount() > 1)
             Thread.yield();
 
